@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeTask</title>
+
+
+    <style>
+        .myDiv{
+            border: 1px outset black;
+            width: 500px;
+            margin: 150px;
+            display: inline-block;
+        }
+        .di{
+            border: 1px outset black;
+            width: 420px;
+            margin: 150px;
+            display: inline-block;
+            padding: 50px;
+        }
+        .divmy{
+            width: 500px;
+            margin: 150px;
+            display: inline-block;
+        }
+        
+        .mydots{
+            font-weight: bold;
+            display: inline;
+            font-size: 15px;
+            margin: auto;
+            float: left;
+        }
+        .mySketch{
+            font-size: 17px;
+            font-weight: bold;
+        }
+        .wifiimg{
+            width: 15px;
+            height: 15px;
+        }
+        .time{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            float: rigth;
+            height: auto;
+            font-weight: bold;
+        }
+        .batimg{
+            width: 21px;
+            height: 21px;
+        }
+        .courses{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .myDiv2{
+            background: whitesmoke;
+            display: inline-block;
+        }
+        .oval{
+            width: 130px;
+            height: 50px;
+            background-color: gray;
+            border-radius: 50%/100%;
+            color: white;
+            display: inline-block;
+            box-shadow: 10px 5px 5px white;
+            margin: 17px;
+        }
+        .oval2{
+            width: 130px;
+            height: 50px;
+            background-color: white;
+            border-radius: 50%/100%;
+            box-shadow: 5px 5px 5px #888888;
+            color: gray;
+            margin: 17px;
+            display: inline-block;
+        }
+        .text{
+            padding:0px 0px 0px 0px ;
+            text-align: center;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .music{
+            width: 200px;
+            height: 200px;
+            margin: 21px;
+            display: inline-block;
+            border-radius: 15%;
+            box-shadow: 10px 8px 5px #888888;
+        }
+        .imagecss{
+            margin: 25px;
+            width: 40px;
+            height: 40px;
+        }
+        .textcss{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0px 0px 10px 25px;
+            font-weight: bold;
+            color: white;
+        }
+        .textcss3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-size: 25px;
+            margin-bottom: -20px;
+            margin: 20px 0px 0px 0px ;
+            color: black;
+            display: inline-block;
+        }
+        .textcss4{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 20px 0px 0px 30px;
+            font-weight: bold;
+            font-size: 25px;
+            color: black;
+            display: inline-block;
+        }
+        .textcss2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: -15px 0px 0px 25px;
+            color: white;
+            padding: -100px;
+        }
+        .menucss{
+            color: white;
+            margin: -73px 0px 0px 170px;
+        }
+        .menucss2{
+            color: white;
+            margin: -65px 0px 0px 385px;
+        }
+        span{
+            display: inline;
+        }
+        .progress{
+            position: relative;
+            height: 5px;
+            width: 150px;
+            margin: 10px 0px 0px 20px;
+            border: 4px solid gray;
+            border-radius: 15px;
+        }
+        .progress .color{
+            position: absolute;
+            background-color: #ffffff;
+            width: 0px;
+            height: 5px;
+            margin: 0px 0px 0px 0px;
+            border-radius: 15px;
+            animation: progres 4s infinite linear;    
+        }
+        .meetingcard{
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            padding-top: 69px;
+        }
+        .rectanglecss{
+            width: 450px;
+            height: 200px;
+            margin: 21px;
+            display: inline-block;
+            border-radius: 50px;
+           
+            box-shadow: 8px 4px 20px white;
+        }
+        .rectanglecss2{
+            width: 450px;
+            height: 200px;
+            margin: 21px 0px 46px 21px;
+            display: inline-block;
+            border-radius: 50px;
+            box-shadow: 8px 4px 20px white;
+        }
+        .whiterectangle{
+            width: 200px;
+            height: 200px;
+            margin: 0px 0px 0px 0px;
+            display: inline-block;
+            background-color: white;
+            border-radius: 50px;
+            box-shadow: 8px 4px 20px black;
+        }
+        .t{
+            margin: 30px;
+            font-size: 25px;
+            color: white;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        .roundedimage{
+            border: 4px solid white;
+            border-radius: 50px;
+            width: 45px;
+            height: 45px;
+            display: inline-block;
+            margin: 20px 0px 0px 40px;
+        }
+        .roundedimage2{
+            border: 4px solid white;
+            border-radius: 50px;
+            width: 45px;
+            height: 45px;
+            display: inline-block;
+            margin: 20px 0px 0px -15px;
+        }
+        .roundedimage3{
+            border: 4px solid white;
+            border-radius: 50px;
+            width: 45px;
+            height: 45px;
+            display: inline-block;
+            margin: 20px 0px 0px -15px;
+        }
+        .roundedimage4{
+            border: 4px solid white;
+            border-radius: 50px;
+            width: 45px;
+            height: 45px;
+            display: inline-block;
+            margin: 20px 0px 0px -15px;
+        }
+        .t2{
+            margin: -15px 0px 0px 30px;
+            font-size: 25px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .circle{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: gray;
+            margin: -105px 0px 0px 300px;
+        }
+        .flexable{
+            display: inline-block;
+            margin: 20px;
+        }
+        .movecss{
+            margin: 20px 0px 0px 50px;
+            width: 125px;
+            height: 125px;
+           
+        }
+        .plus{
+            font-weight: bold;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            color: white;
+            padding: 5px 0px 0px 0px;
+        }
+        @keyframes progres{
+            0%{
+              width: 0%;
+            }
+            25%{
+                width: 50%;
+            }
+            50%{
+                width: 75%;
+            }
+            75%{
+                width: 85%;
+            }
+            100%{
+                width: 100%;
+            }
+        };
+       
+    </style>
+
+</head>
+<body>
+
+    <!-- FirstTask -->
+    <div class="myDiv" style="margin: 100px;">
+        <div>
+            <span>
+                <p class="mydots">  <sup>&#9679;&#9679;&#9679;&#9679;&#9679;</sup> <b class="mySketch">Sketch</b> 
+                    <img class="wifiimg" src="images/wifi.png" alt="Wifi"></body>
+                </p>
+                <p>
+                    <pre class="time">                                   9:41                                              100% <sub><img class="batimg" src="images/battery.png" alt="battery"></sub></pre>
+
+                </p>
+                <p class="courses">Courses</p>
+            </span>
+
+        </div>
+        <div class="myDiv2">
+            <div class="oval">
+                <p class="text">All</p>
+            </div>
+            <div class="oval2">
+                <p class="text">Ongoing</p>
+            </div>
+            <div class="oval2">
+                   <p class="text">Completed</p>
+            </div>
+            
+
+
+            <div style="background-color: cornflowerblue;" class="music">
+                <img class="imagecss" src="images/profile.png"> 
+                <pre class="menucss" style="font-size: 12px; font-weight: bold;">&#9679;
+&#9679;
+&#9679;
+                </pre>
+                <pre class="textcss">Media iQ
+Digital Ltd
+                </pre>
+                <p class="textcss2">Senior UI Designer</p>
+                <div class="progress">
+                    <div class="color"></div>
+                </div>
+            </div>
+
+
+            
+            <div style="background-color: darkgoldenrod;" class="music">
+                <img class="imagecss" src="images/girl.png"> 
+                <pre class="menucss" style="font-size: 12px; font-weight: bold;">&#9679;
+&#9679;
+&#9679;
+                </pre>
+                <pre class="textcss">Messouri
+Foundation
+                </pre>
+                <p class="textcss2">Senior UI Designer</p>
+                <div class="progress">
+                    <div class="color"></div>
+                </div>
+            </div>
+
+
+            <div style="background-color: purple;" class="music">
+                <img class="imagecss" src="images/prof.png"> 
+                <pre class="menucss" style="font-size: 12px; font-weight: bold;">&#9679;
+&#9679;
+&#9679;
+                </pre>
+                <pre class="textcss">Rival
+Group
+                </pre>
+                <p class="textcss2">UX / UI Designer</p>
+                <div class="progress">
+                    <div class="color"></div>
+                </div>
+            </div>
+
+            
+            <div style="background-color:crimson" class="music">
+                <img class="imagecss" src="images/account.png"> 
+                <pre class="menucss" style="font-size: 12px; font-weight: bold;">&#9679;
+&#9679;
+&#9679;
+                </pre>
+                <pre class="textcss">Sandhills
+Publishing
+                </pre>
+                <p class="textcss2">Interactive Designer</p>
+                <div class="progress">
+                    <div class="color"></div>
+                </div>
+            </div>
+
+
+            <div style="background-color:forestgreen" class="music">
+                <img class="imagecss" src="images/user.png"> 
+                <pre class="menucss" style="font-size: 12px; font-weight: bold;">&#9679;
+&#9679;
+&#9679;
+                </pre>
+                <pre class="textcss">Pediment
+Publishing
+                </pre>
+                <p class="textcss2">Game UI Designer</p>
+                <div class="progress">
+                    <div class="color"></div>
+                </div>
+            </div>
+
+
+            
+            <div style="background-color:darkslateblue" class="music">
+                <img class="imagecss" src="images/man.png"> 
+                <pre class="menucss" style="font-size: 12px; font-weight: bold;">&#9679;
+&#9679;
+&#9679;
+                </pre>
+                <pre class="textcss">Palantir
+Technologies
+                </pre>
+                <p class="textcss2">Product Designer</p>
+                <div class="progress">
+                    <div class="color"></div>
+                </div>
+            </div>
+
+
+        </div>
+            
+        
+
+
+    </div>    
+    
+    <!-- Second Task -->
+    <div class="divmy" style="margin: 0px 0px -75px 100px;background:url(images/w.jpg);">
+        <div>
+            <p class="meetingcard">Meeting Card</p>
+        </div>
+
+
+        <div class="rectanglecss" style="background-color:deepskyblue">
+            <p class="t">7:30 AM</p>
+            <pre class="menucss2" style="font-size: 12px; font-weight: bold;">&#9679;
+&#9679;
+&#9679;
+            </pre>
+            <p class="t2">Product Designer Meeting</p>
+
+
+            <img class="roundedimage" src="images/profile.png" alt="profile">
+            <img class="roundedimage2" src="images/girl.png" alt="profile">
+            <img class="roundedimage3" src="images/prof.png" alt="profile">
+            <img class="roundedimage4" src="images/user.png" alt="profile">
+        </div>
+
+
+
+        <div class="rectanglecss" style="background-color:goldenrod;">
+            <p class="t">7:30 AM</p>
+            <pre class="menucss2" style="font-size: 12px; font-weight: bold;">&#9679;
+&#9679;
+&#9679;
+            </pre>
+            <p class="t2">Product Designer Meeting</p>
+
+
+            <img class="roundedimage" src="images/profile.png" alt="profile">
+            <img class="roundedimage2" src="images/girl.png" alt="profile">
+            <img class="roundedimage3" src="images/prof.png" alt="profile">
+            <img class="roundedimage4" src="images/user.png" alt="profile">
+        </div>
+
+
+        <div class="rectanglecss2" style="background-color:indigo;">
+            <p class="t">7:30 AM</p>
+            <pre class="menucss2" style="font-size: 12px; font-weight: bold;">&#9679;
+&#9679;
+&#9679;
+            </pre>
+            <p class="t2">Product Designer Meeting</p>
+
+
+            <img class="roundedimage" src="images/profile.png" alt="profile">
+            <img class="roundedimage2" src="images/girl.png" alt="profile">
+            <img class="roundedimage3" src="images/prof.png" alt="profile">
+            <img class="roundedimage4" src="images/user.png" alt="profile">
+        </div>
+
+    </div>
+ 
+
+    <!-- Third Task -->
+    <div class="myDiv" style="background-color: whitesmoke;">
+        <div>
+            <pre class="textcss3">         Start A New Journey</pre>
+            </div>
+            <div class="flexable">
+                <div class="whiterectangle">
+                    <p class="textcss4">Walking</p>
+                    <img class="movecss" src="images/walk.png" alt="walking">
+                </div>
+            </div>
+            <div class="flexable">
+                <div class="whiterectangle">
+                    <p class="textcss4">Cycling</p>
+                    <img class="movecss" src="images/bicycle.png" alt="walking">
+                </div>
+            </div>
+            <div class="flexable">
+                <div class="whiterectangle">
+                    <p class="textcss4">Driving</p>
+                    <img class="movecss" src="images/driver.png" alt="walking">
+                </div>
+            </div>
+            <div class="flexable">
+                <div class="whiterectangle">
+                    <p class="textcss4">Train</p>
+                    <img class="movecss" src="images/train.png" alt="walking">
+                </div>
+            </div>
+            <div class="flexable">
+                <div class="whiterectangle">
+                    <p class="textcss4">Hiking</p>
+                    <img class="movecss" src="images/hiking.png" alt="walking">
+                </div>
+            </div>
+            <div class="flexable">
+                <div class="whiterectangle">
+                    <p class="textcss4">Flight</p>
+                    <img class="movecss" src="images/airplane.png" alt="walking">
+                </div>
+            </div>
+    </div>
+
+</body>
+</html>
